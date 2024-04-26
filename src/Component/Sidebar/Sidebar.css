@@ -1,0 +1,25 @@
+.sidebar-main{
+    min-width: 12vw;
+    padding-left: 1vw;
+    
+}
+
+.sidebar-main>p{
+    padding: .5vw .8vw;
+    font-family: poppins;
+    font-size: 1vw;
+    font-weight: 700;
+    color: grey;
+}
+.sidebar-list1{
+    border: 1px solid rgb(220, 204, 204);
+    border-radius: 10px;
+    background-color:whitesmoke;
+    box-shadow:2px 2px 10px rgb(183, 179, 179);
+}
+
+@media (max-width:650px) {
+    .sidebar-main{
+    display: none;
+    }
+}

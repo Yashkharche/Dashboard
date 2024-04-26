@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header-main{
+    background-color:#3a3939;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:1.5vw 2.5vw;
+    font-family: poppins;
+    position: relative;
+
+}
+
+.header-icon{
+    background:linear-gradient(to bottom,#202020,#3C5274);
+    width:2vw;
+    height:2vw;
+    border-radius: 50%;
+}
+
+.header-middle{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 37vw;
+    height: 3vw;
+}
+.header-dropdown{
+    display: flex;
+    align-items: center;
+    font-size: 1.3vw;
+    background-color: rgb(210, 205, 205);
+    padding: .2vw 1.2vw;
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+    height: 3vw;
+}
+.header-dropdown p:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+
+
+.header-middle input{
+    font-size: 1.3vw;
+    padding: .2vw 1.2vw;
+    border-radius: 0px 20px 20px 0px;
+    height: 3vw;
+    border: none;
+    
+}
+
+.header-middle>p{
+    position: absolute;
+    right: 11vw;
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+}
+
+.header-middle button{
+    padding: .3vw 1.2vw;
+    font-size: 1vw;
+    margin-left: .5vw;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 3vw;
+}
+
+.header-last{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.header-last p{
+    display: flex;
+    font-size: 1.8vw;
+    color: aliceblue;
+    border: .2px solid aliceblue;
+    border-radius: 50%;
+    padding: .2vw;
+    background-color: rgb(121, 123, 126);
+}
+.header-last img{
+    width: 3.5vw;
+  
+    border-radius: 50%;
+}
+
+@media (max-width:650px) {
+    .header-icon{
+        display: none;
+    }
+    .header-main{
+        padding: 1.5vw 4vw;
+        max-width:100%;
+        overflow-x: hidden;
+    }
+    .header-middle button{
+        font-size: .9vw;
+    }
+}

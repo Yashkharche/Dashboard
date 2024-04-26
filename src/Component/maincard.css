@@ -1,0 +1,50 @@
+.maincard-main{
+    display: flex;
+    border-radius: 2px;
+    flex: 1;
+    margin: 0vw .5vw;
+    justify-content: space-between;
+    padding: 1vw;
+    font-family: poppins;
+    background-color: white;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-left #card-name{
+    color: green;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.card-left #card-count{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: rgb(91, 90, 90);
+}
+
+.card-left #card-description{
+    font-size: .8vw;
+    color: grey;
+}
+
+.card-right p{
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+    color: grey;
+    text-align: center;
+    font-size: 2vw;
+}
+
+@media (max-width:650px) {
+    .maincard-main{
+        flex: 0;
+        min-width:45vw;
+        gap: 2vw;
+        margin: 0vw 2vw;
+    }
+}
