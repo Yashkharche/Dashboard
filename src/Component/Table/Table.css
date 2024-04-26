@@ -16,3 +16,8 @@ th{
 td{
     font-size: 1.2vw;
 }
+@media (max-width:650px) {
+    .table{
+        width: 90%;
+    }
+}
