@@ -98,10 +98,10 @@
     }
     .header-main{
         padding: 1.5vw 4vw;
-        max-width:100%;
         overflow-x: hidden;
     }
     .header-middle button{
-        font-size: .9vw;
+        font-size: 1vw;
+        min-width: 10vw;
     }
 }

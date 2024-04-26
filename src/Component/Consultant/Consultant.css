@@ -176,13 +176,13 @@ input[type="checkbox"]:checked {
         overflow-x: hidden;
     }
     .consultant-main{
-        width: 95%;
+        width: 100%;
     }
     .consultant-heading{
         font-size: 2vw;
     }
     .filter-main{
-        width: 95%;
+        width: 100%;
     }
     .filter-heading{
         font-size: 2.2vw;
@@ -202,6 +202,7 @@ input[type="checkbox"]:checked {
     }
     .table-section{
         width:100%;
+        margin: 1%;
     }
 
     .filter-heading::after{
