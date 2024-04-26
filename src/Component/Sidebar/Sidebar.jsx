@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
-import SideCards from '../SideCards'
+import SideCards from '../Sidecard/SideCards'
 import { RxAvatar } from 'react-icons/rx'
 import { GoDatabase } from 'react-icons/go'
 import { CiBeaker1, CiMoneyBill, CiShop } from 'react-icons/ci'

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Table.css'
-import { data } from '../Data/data'
+import { data } from '../../Data/data'
 const Table = () => {
   return (
     <div className='table-main'>
@@ -11,8 +11,8 @@ const Table = () => {
     <th>LABS</th>
     <th>DIET PLANS</th>
   </tr>
-  {data.map((data)=>(
-  <tr>
+  {data.map((data,index)=>(
+  <tr key={index}>
     <td>{data.name}</td>
     <td>{data.patient_count}</td>
     <td>{data.labs}</td>
